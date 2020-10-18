@@ -1,0 +1,67 @@
+body {
+    height: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #3068d0 50%, #330867 100%);
+    background-repeat: no-repeat;
+}
+
+header {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menu {
+    float: right;
+    position: relative;
+    margin-left: 750px;
+}
+
+.menu_li {
+    float: left;
+    list-style: none;
+    color: white;
+    margin: 0 0 0 40px;
+}
+
+.titre {
+    text-align: center;
+    margin: 100px;
+    padding: 140px 50px;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+}
+
+h1, p {
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+article {
+    height: 300px;
+    margin: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.pro_1, article {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+h2 {
+    color: rosybrown;
+}
+
+h3 {
+    color: rosybrown;
+}
